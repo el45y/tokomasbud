@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Warung Menu</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #6b3e26;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #3d2518;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 250px;
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card a {
+            display: inline-block;
+            background-color: green;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #3d2518;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>WARUNG MENU</h1>
+        <p>Silakan Pilih Menu Favorit Anda</p>
+    </header>
+
+    <nav>
+        <a href="#kopi">Kopi Robusta</a>
+        <a href="#klomang">Klomang</a>
+        <a href="#boti">Boti</a>
+    </nav>
+
+    <h2>Daftar Menu</h2>
+
+    <div class="menu">
+
+        <!-- MENU KOPI -->
+        <div class="card" id="kopi">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=80">
+
+            <h3>Kopi Robusta</h3>
+            <p>Rp10.000</p>
+
+            <a href="https://wa.me/6285178904869?text=Saya%20ingin%20memesan%20Kopi%20Robusta">
+                Pesan Sekarang
+            </a>
+        </div>
+
+
+        <!-- MENU KLOMANG -->
+        <div class="card" id="klomang">
+            <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=500&q=80">
+
+            <h3>Klomang</h3>
+            <p>Rp15.000</p>
+
+            <a href="https://wa.me/6285178904869?text=Saya%20ingin%20memesan%20Klomang">
+                Pesan Sekarang
+            </a>
+        </div>
+
+
+        <!-- MENU BOTI -->
+        <div class="card" id="boti">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80">
+
+            <h3>Boti</h3>
+            <p>Rp20.000</p>
+
+            <a href="https://wa.me/6285178904869?text=Saya%20ingin%20memesan%20Boti">
+                Pesan Sekarang
+            </a>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>Pesan Sekarang Melalui WhatsApp</p>
+        <p>© 2026 Warung Menu</p>
+    </footer>
+
+</body>
+</html>
